@@ -22,7 +22,7 @@ author:
 
 # URL settings
 url: "https://Nat0ne.github.io"
-baseurl: /simality
+baseurl:
 permalink: /:title/
 google_analytics:
 fb_appid:
