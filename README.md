@@ -19,9 +19,7 @@ For demo <a href="https://klise.now.sh" target="_blank" rel="noopener">klise.now
 - [x] Google analytics
 - [x] HTML Minify ([`jekyll-compress-html`](https://github.com/penibelst/jekyll-compress-html))
 - [x] W3C **Validated**
-- [x] Lighthouse and PageSpeed **Passed**
 
-![Lighthouse Result](./lighthouse.png)
 
 ## Backlogs
 

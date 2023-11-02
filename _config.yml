@@ -10,18 +10,18 @@ mode: dark
 
 # Profile settings
 author:
-  name: ampLe
+  name: Simality
   bio: >-
-    For an infinite Universe, all stories are true.
-    And AI is helping us to find them.
-  username: ampLe
-  github: Nat0ne
+    For an infinite Universe, all stories are true.<br>
+    And here AI is helping us uncovering as many of them as possible.
+  username: António
+  github: aleutheris
   twitter:
-  email: simulality@gmail.com
+  email: simality@gmail.com
   profile_picture: /assets/img/profile_picture.jpg
 
 # URL settings
-url: "https://Nat0ne.github.io"
+url: "https://aleutheris.github.io"
 baseurl: /simality
 permalink: /:title/
 google_analytics:
@@ -78,7 +78,6 @@ exclude:
   - node_modules
   - CODE_OF_CONDUCT.md
   - CONTRIBUTING.md
-  - lighthouse.png
   - klise-*.gem
   - klise.gemspec
 
