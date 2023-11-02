@@ -1,7 +1,7 @@
 # Site settings
 title: Simality
 description: >-
-  Realities with stories.
+  Stories of eventual realities.
 lang: en-US
 timezone: Amsterdam
 image: assets/img/ogp.png
@@ -12,7 +12,8 @@ mode: dark
 author:
   name: ampLe
   bio: >-
-    Stories of eventual realities.
+    For an infinite Universe, all stories are true.
+    And AI is helping us to find them.
   username: ampLe
   github: Nat0ne
   twitter:
