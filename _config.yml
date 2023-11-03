@@ -1,28 +1,28 @@
 # Site settings
-title: Simality
+title: Phanytale
 description: >-
   Stories of eventual realities.
 lang: en-US
 timezone: Amsterdam
 image: assets/img/ogp.png
-repo: https://github.com/Nat0ne/simality
+repo: https://github.com/aleutheris/phanytale
 mode: dark
 
 # Profile settings
 author:
-  name: Simality
+  name: Phanytale
   bio: >-
     For an infinite Universe, all stories are true.<br>
     And here AI is helping us uncovering as many of them as possible.
   username: António
   github: aleutheris
   twitter:
-  email: simality@gmail.com
+  email: ampeleuterio@gmail.com
   profile_picture: /assets/img/profile_picture.jpg
 
 # URL settings
 url: "https://aleutheris.github.io"
-baseurl: /simality
+baseurl: /phanytale
 permalink: /:title/
 google_analytics:
 fb_appid:
