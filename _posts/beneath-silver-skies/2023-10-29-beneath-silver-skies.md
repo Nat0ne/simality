@@ -2,11 +2,10 @@
 layout: post
 title:  "Beneath Silver Skies"
 date:   2023-10-29 22:57:20 +0100
+image:  /assets/img/beneath-silver-skies.jpg
 categories:
 usemathjax: true
 ---
-
-
 Elena stood at the market square, her eyes darting from stall to stall. The vibrancy that once pulsed through the marketplace felt like a distant memory. Now, the stalls were sparsely filled, and the sellers' eyes held a similar desperation to the customers’.
 
 She remembered times when the weight of her coin pouch would guarantee her a basket full of vegetables, fruits, and perhaps a small treat for her son, Leo. But the weight of the coins hadn’t changed; it was their power that had waned.
