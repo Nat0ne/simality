@@ -1,20 +1,20 @@
 # Site settings
 title: Phanytale
 description: >-
-  Stories of eventual realities.
+  For an infinite Universe, all stories are true.<br>
+  And here AI is helping us uncovering as many of them as possible.
 lang: en-US
 timezone: Amsterdam
-image: /assets/img/profile_picture.jpg
+image: /assets/img/main_picture.jpg
 repo: https://github.com/aleutheris/phanytale
 mode: dark
 
 # Profile settings
 author:
-  name: Phanytale
+  name: António Eleutério
   bio: >-
-    For an infinite Universe, all stories are true.<br>
-    And here AI is helping us uncovering as many of them as possible.
-  username: António
+    Software Engineer who loves to learn and share knowledge.<br>
+  username: aleutheris
   github: aleutheris
   twitter:
   email: ampeleuterio@gmail.com
