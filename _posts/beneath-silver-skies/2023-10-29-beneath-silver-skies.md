@@ -4,6 +4,7 @@ title:  "Beneath Silver Skies"
 date:   2023-10-29 22:57:20 +0100
 image:  /assets/img/beneath-silver-skies.jpg
 categories:
+youtube_url:
 usemathjax: true
 ---
 Elena stood at the market square, her eyes darting from stall to stall. The vibrancy that once pulsed through the marketplace felt like a distant memory. Now, the stalls were sparsely filled, and the sellers' eyes held a similar desperation to the customers’.
