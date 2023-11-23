@@ -1,5 +1,5 @@
 <div class="author">
-  <meta property="og:image" content="{{ site.baseurl }}{{ site.image }}" />
+  <meta property="og:image" content="{{ site.baseurl }}{{ site.image | default: site.image }}" />
   <img
     class="banner-main_picture"
     src="{{ site.baseurl }}{{ site.image }}"
