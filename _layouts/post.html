@@ -47,7 +47,7 @@ layout: compress
           {% endif %}
           <h1 class="header-title" itemprop="headline">{{ page.title | escape }}</h1>
           {% if page.image %}
-          <meta property="og:image" content="{{ site.baseurl }}{{ page.image | absolute_url }}" />
+          <meta property="og:image" content="{{ site.baseurl }}{{ page.image }}" />
           <img
             class="post-main_picture"
             src="{{ site.baseurl }}{{ page.image }}" alt="{{ site.baseurl }}{{ site.image }}"
