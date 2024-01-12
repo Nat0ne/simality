@@ -7,7 +7,10 @@
   <meta name="application-name" content="{{ site.title }}" />
   <meta name="apple-mobile-web-app-status-bar-style" content="#fff" />
   <meta name="apple-mobile-web-app-title" content="{{ site.title }}" />
-  <meta property="og:image" content="https://aleutheris.github.io/assets/img/banner_picture.jpg" />
+  <!-- <meta property="og:image" content="{{ site.baseurl }}/assets/img/banner_picture.jpg" /> -->
+  {% if page.image %}
+          <meta property="og:image" content="{{ site.baseurl }}/assets/img/banner_picture.jpg" />
+  {% endif %}
   <title>
     {% if page.title %}
     {{ page.title | escape }} - {{ site.title }}
