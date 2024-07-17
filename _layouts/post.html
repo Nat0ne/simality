@@ -48,10 +48,21 @@ layout: compress
           <h1 class="header-title" itemprop="headline">{{ page.title | escape }}</h1>
           {% if page.image %}
           <meta property="og:image" content="{{ site.baseurl }}{{ page.image }}" />
-          <img
+          <!-- <img
             class="post-main_picture"
             src="{{ site.baseurl }}{{ page.image }}" alt="{{ site.baseurl }}{{ site.image }}"
-            />
+            /> -->
+
+          <div class="video-container">
+            <iframe
+              class="post-main_video"
+              src="{{ site.baseurl }}{{ page.youtube_url }}" alt="{{ site.baseurl }}{{ site.image }}"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+
           {% endif %}
           {% if page.date %}
           <div class="post-meta">

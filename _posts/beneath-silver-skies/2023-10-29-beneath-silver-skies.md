@@ -4,7 +4,7 @@ title:  "Beneath Silver Skies"
 date:   2023-10-29 22:57:20 +0100
 image:  /assets/img/beneath-silver-skies.jpg
 categories:
-youtube_url:
+youtube_url: "https://www.youtube.com/embed/pRRX3eMNSQE"
 usemathjax: true
 ---
 Elena stood at the market square, her eyes darting from stall to stall. The vibrancy that once pulsed through the marketplace felt like a distant memory. Now, the stalls were sparsely filled, and the sellers' eyes held a similar desperation to the customers’.
@@ -29,7 +29,7 @@ Late one evening, as the silver light of the moon filtered through their windows
 
 Elena looked into her son's eyes, seeing the shadows of hunger. The pain in her chest was sharp, more profound than any personal hunger or need. She held him close, humming a lullaby, hoping to soothe his pain with love and song.
 
-The following morning, Elena decided to visit the riverbank. Years ago, the townspeople would often gather there, sharing stories while casting nets, hoping for a bountiful catch. Perhaps she might find some solace, or even fish.
+In the following morning Elena decided to visit the riverbank. Years ago, the townspeople would often gather there, sharing stories while casting nets, hoping for a bountiful catch. Perhaps she might find some solace, or even fish.
 
 The bank was deserted, save for an old man, Manuel. His once bright eyes looked cloudy, his face etched with deep lines of worry.
 
