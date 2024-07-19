@@ -51,7 +51,7 @@ layout: compress
             <meta property="og:image" content="{{ site.baseurl }}{{ page.image }}" />
           {% endif %}
 
-          {% if page.youtube_url %}
+          <!-- {% if page.youtube_url %} -->
             <div class="video-container">
               <iframe
                 src="{{ site.baseurl }}{{ page.youtube_url }}"
@@ -62,11 +62,11 @@ layout: compress
                 allowfullscreen>
               </iframe>
             </div>
-          {% else %}
+          <!-- {% else %}
             <img class="post-main_picture"
                 src="{{ site.baseurl }}{{ page.image }}" alt="{{ site.baseurl }}{{ site.image }}"
             />
-          {% endif %}
+          {% endif %} -->
 
           {% if page.date %}
           <div class="post-meta">
