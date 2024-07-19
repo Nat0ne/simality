@@ -47,7 +47,10 @@ layout: compress
           {% endif %}
           <h1 class="header-title" itemprop="headline">{{ page.title | escape }}</h1>
 
-          {{ page.date }}
+          {{ page.title }}<br>
+          {{ page.date }}<br>
+          {{ page.image }}<br>
+          {{ page.youtube_url }}<br>
 
           <!-- {% if page.image %}
             <meta property="og:image" content="{{ site.baseurl }}{{ page.image }}" />
@@ -72,10 +75,8 @@ layout: compress
 
           {% if page.date %}
           <div class="post-meta">
-            {{ page.date }}
             <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
               {{ page.date | date: "%b %d, %Y" }}
-              {{ page.youtube_url }}
             </time>
             <span itemprop="author" itemscope itemtype="https://schema.org/Person">
               <span itemprop="name">{{ site.author.username }}</span>
