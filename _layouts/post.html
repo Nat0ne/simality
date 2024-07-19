@@ -48,13 +48,30 @@ layout: compress
           <h1 class="header-title" itemprop="headline">{{ page.title | escape }}</h1>
           {% if page.image %}
           <meta property="og:image" content="{{ site.baseurl }}{{ page.image }}" />
+          <!-- <img
+            class="post-main_picture"
+            src="{{ site.baseurl }}{{ page.image }}" alt="{{ site.baseurl }}{{ site.image }}"
+            /> -->
 
-          <div class="video-container">
+          <!-- <div class="video-container">
             <iframe
               class="post-main_video"
               src="{{ site.baseurl }}{{ page.youtube_url }}" alt="{{ site.baseurl }}{{ site.image }}"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div> -->
+
+          <div class="video-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/pRRX3eMNSQE?si=JAG448mV_1xtdT60"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen>
             </iframe>
           </div>
