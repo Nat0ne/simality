@@ -56,8 +56,8 @@ layout: compress
             <meta property="og:image" content="{{ site.baseurl }}{{ page.image }}" />
           {% endif %} -->
 
-          <!-- {% if page.youtube_url %} -->
-            <!-- <div class="video-container">
+          {% if page.youtube_url %}
+            <div class="video-container">
               <iframe
                 src="{{ page.youtube_url }}"
                 title="YouTube video player"
@@ -66,14 +66,18 @@ layout: compress
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen>
               </iframe>
-            </div> -->
+            </div>
           <!-- {% else %}
             <img class="post-main_picture"
                 src="{{ site.baseurl }}{{ page.image }}" alt="{{ site.baseurl }}{{ site.image }}"
-            />
-          {% endif %} -->
+            /> -->
+          {% endif %}
 
           {% if page.date %}
+          {{ page.title }}<br>
+          {{ page.date }}<br>
+          {{ page.image }}<br>
+          {{ page.youtube_url }}<br>
           <div class="post-meta">
             <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
               {{ page.date | date: "%b %d, %Y" }}
