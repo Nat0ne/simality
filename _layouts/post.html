@@ -47,14 +47,9 @@ layout: compress
           {% endif %}
           <h1 class="header-title" itemprop="headline">{{ page.title | escape }}</h1>
 
-          {{ page.title }}<br>
-          {{ page.date }}<br>
-          {{ page.image }}<br>
-          {{ page.youtube_url }}<br>
-
-          <!-- {% if page.image %}
+          {% if page.image %}
             <meta property="og:image" content="{{ site.baseurl }}{{ page.image }}" />
-          {% endif %} -->
+          {% endif %}
 
           {% if page.youtube_url %}
             <div class="video-container">
@@ -67,17 +62,13 @@ layout: compress
                 allowfullscreen>
               </iframe>
             </div>
-          <!-- {% else %}
+          {% else %}
             <img class="post-main_picture"
                 src="{{ site.baseurl }}{{ page.image }}" alt="{{ site.baseurl }}{{ site.image }}"
-            /> -->
+            />
           {% endif %}
 
           {% if page.date %}
-          {{ page.title }}<br>
-          {{ page.date }}<br>
-          {{ page.image }}<br>
-          {{ page.youtube_url }}<br>
           <div class="post-meta">
             <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
               {{ page.date | date: "%b %d, %Y" }}
