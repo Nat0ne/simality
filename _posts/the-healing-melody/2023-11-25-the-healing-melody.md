@@ -2,9 +2,8 @@
 layout: post
 title:  "The Healing Melody"
 date:   2023-11-25 23:09:00 +0100
-image:  /assets/img/the-healing-melody.jpg
+image:  "/assets/img/the-healing-melody.jpg"
 categories:
-youtube_url:
 usemathjax: true
 ---
 <h1>A flourishing flower</h1>

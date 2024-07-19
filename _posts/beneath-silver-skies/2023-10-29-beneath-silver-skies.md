@@ -2,7 +2,7 @@
 layout: post
 title:  "Beneath Silver Skies"
 date:   2023-10-29 22:57:20 +0100
-image:  /assets/img/beneath-silver-skies.jpg
+image:  "/assets/img/beneath-silver-skies.jpg"
 categories:
 youtube_url: "https://www.youtube.com/embed/pRRX3eMNSQE?si=JAG448mV_1xtdT60"
 usemathjax: true

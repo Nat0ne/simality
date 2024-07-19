@@ -2,9 +2,8 @@
 layout: post
 title:  "Reality Crushing Dreams"
 date:   2023-11-17 23:33:00 +0100
-image:  /assets/img/reality-crushing-dreams.jpg
+image:  "/assets/img/reality-crushing-dreams.jpg"
 categories:
-youtube_url:
 usemathjax: true
 ---
 In a lively, bustling metropolis, where skyscrapers reached towards the clouds and the streets buzzed with ceaseless activity, there lived a young man named Alex. His heart was a reservoir of dreams, each more colorful and ambitious than the last. Freshly graduated from university, he was a beacon of excitement and enthusiasm, his mind ablaze with visions of changing the world. Alex, with his youthful eagerness and boundless energy, believed wholeheartedly in the power of one individual to make a significant impact on society. He carried with him not just a degree, but a burning desire to contribute to the greater good.
